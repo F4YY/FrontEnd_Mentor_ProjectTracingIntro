@@ -154,14 +154,6 @@ export const Rightsider = styled(Vstack)`
     grid-area: C;
     position:relative;
 `
-export const Logo2 = styled(Logo)`
-    display: none;
-    @media screen and (max-width:600px) {
-        display:block;
-        width:9%;
-        margin: 0;
-    }
-`
 export const Stylednavbar = styled.div`
     padding: 5% 10% 40%;
     background-color: var(--Light-Grayish-Blue);
