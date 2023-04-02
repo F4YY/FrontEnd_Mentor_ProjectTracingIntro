@@ -26,4 +26,18 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     background-color: var(--Light-grayish-blue);
+    @keyframes slidernav {
+        0% {
+            rotate:0deg;
+            transform: scale(0);
+        }
+        50% {
+            rotate:270deg;
+            transform: scale(130%);
+        }
+        100% {
+            rotate:-360deg;
+            transform: scale(100%);
+        }
+    }
 `

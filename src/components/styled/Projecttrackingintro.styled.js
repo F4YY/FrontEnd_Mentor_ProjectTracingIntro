@@ -259,7 +259,9 @@ export const Menulist = styled(Vstack)`
     right:5%;
     width: 90%;
     height: auto;
-    transition: .5s ease-in-out;
+    animation: slidernav .5s ease-in;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
     background:#fff;
     padding:10px 0;
     border-radius: 5px;
